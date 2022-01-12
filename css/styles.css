@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800;900&display=swap");
+body {
+  margin: 0px;
+  background-color: #1d1d1d;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background-color: #25242d;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px 0px 30px;
+}
+.fa-bars {
+  font-size: 30px;
+}
+
+/* Part 01 - Bio */
+section {
+  width: 960px;
+  margin: auto;
+  padding: 150px 0px 0px 0px;
+}
+.fTitle {
+  display: inline;
+  font-weight: 900;
+  font-size: 30px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0px;
+}
+.ftPurple {
+  color: #8a39db;
+}
+p {
+  width: 300px;
+}
+hr {
+  width: 150px;
+  display: inline-block;
+  border: 1px solid #8a39db;
+  margin: 5px;
+}
+.fa-github,
+.fa.instagram {
+  margin: 5px;
+}
+#imgPrimary {
+  background-color: #8a39db;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 55%;
+  top: 180px;
+}
+
+/* Part 02 - Projects*/
