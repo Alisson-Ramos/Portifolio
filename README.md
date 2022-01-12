@@ -10,7 +10,7 @@
 
 ---
 
-## Instalação
+## ⚙️ Instalação ⚙️
  
 <br>
 
