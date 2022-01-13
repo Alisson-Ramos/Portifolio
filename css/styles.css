@@ -40,15 +40,18 @@ hr {
 header {
   background-color: #25242d;
   height: 60px;
-  width: 94%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 30px 0px 30px;
   position: fixed;
 }
 .fa-bars {
   font-size: 30px;
+}
+
+.iHeader {
+  margin: 0px 30px 0px 30px;
 }
 
 /* Part 01 - Bio */
@@ -79,18 +82,19 @@ header {
 
 /* Part 02 - Projects*/
 
-#title {
+.title {
   text-align: center;
   padding: 300px 0px 0px 0px;
 }
 #sec02 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 70px 0px 0px 0px;
   flex-flow: wrap;
 }
 .fa-font-awesome-flag,
-.fa-folder {
+.fa-folder,
+.fa-gem {
   font-size: 40px;
   color: #8a39db;
 }
@@ -109,3 +113,39 @@ header {
 #txtProject {
   padding: 0px 25px 25px 25px;
 }
+
+/* Part 03 - Skills */
+
+#sec03 {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0px 0px 0px;
+  flex-flow: wrap;
+}
+.t02 {
+  padding: 150px 0px 0px 0px;
+}
+.skillBlock {
+  width: 200px;
+  height: 150px;
+  background-color: #25242d;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+}
+
+/* Footer */
+
+footer {
+  border-top: solid 1px #babaca;
+  height: 60px;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding: 0px 30px 0px 30px;
+  margin: auto;
+}
+#fText {display: flex;}
+#Powered {width: 110px;}
