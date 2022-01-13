@@ -38,13 +38,20 @@ hr {
 
 /* Header */
 header {
-  background-color: #25242d;
   height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
+}
+#bkgHeader {
+  position: fixed;
+  box-shadow: 0 0px 5px #8a39db;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  height: 60px;
+  width: 100%;
 }
 .fa-bars {
   font-size: 30px;
@@ -72,12 +79,13 @@ header {
 }
 
 #imgPrimary {
-  background-color: #8a39db;
   width: 400px;
   height: 400px;
   position: absolute;
   left: 55%;
-  top: 140px;
+  top: 100px;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 /* Part 02 - Projects*/
@@ -103,7 +111,7 @@ header {
   height: 300px;
   background-color: #25242d;
   border-radius: 10px;
-  margin: 10px;
+  margin: 15px;
 }
 #pIcons {
   padding: 25px;
@@ -111,7 +119,13 @@ header {
   justify-content: space-between;
 }
 #txtProject {
-  padding: 0px 25px 25px 25px;
+  margin: 0px 0px 0px 25px;
+}
+
+.projects:hover {
+  border: solid 1px;
+  border-image: linear-gradient(-210deg, #8a39db, rgba(0, 0, 0, 0) 80%) 1.2;
+  margin: 10px;
 }
 
 /* Part 03 - Skills */
@@ -133,7 +147,13 @@ header {
   display: flex;
   align-content: center;
   justify-content: center;
-  margin: 0px 0px 20px 0px;
+  margin: 10px 10px 25px 10px;
+}
+
+.skillBlock:hover {
+  border: solid 1px;
+  border-image: linear-gradient(-210deg, #8a39db, rgba(0, 0, 0, 0) 80%) 1.2;
+  margin: 10px 10px 20px 10px;
 }
 
 /* Footer */
@@ -147,5 +167,9 @@ footer {
   padding: 0px 30px 0px 30px;
   margin: auto;
 }
-#fText {display: flex;}
-#Powered {width: 110px;}
+#fText {
+  display: flex;
+}
+#Powered {
+  width: 110px;
+}
