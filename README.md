@@ -10,7 +10,7 @@
 
 ---
 
-## Instalação
+## ⚙️ Instalação ⚙️
  
 <br>
 
@@ -25,11 +25,10 @@
 <ul>
     <li>Baixe ou clone o Projeto no seu computador</li>
 </ul>
-'''bash
 
- $ git clone https://github.com/AlissonForbidden/Portifolio.git
-
-'''
+```bash
+  $ git clone https://github.com/AlissonForbidden/Portifolio.git
+```
 
 <ul>
     <li>Após isso só iniciar no seu editor de Código</li>
