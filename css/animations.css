@@ -1,0 +1,65 @@
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    animation: dissapear  2.5s;
+    opacity: 0;
+  }
+  #AIbkg {background-color: #1d1d1d;  width: 100%;
+    height: 100%; position: fixed; opacity: 0; animation: dissapear  2.5s;}
+  #texto {
+    font-weight: 900;
+    font-size: 24px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  #Rcolored {
+    color: #8a39db;
+  }
+  h2 {
+    font-weight: 900;
+    padding: 2px;
+    color: #fff;
+  }
+  @keyframes dissapear {
+    from {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+  }
+  
+  .c1 {
+    background-color: #1d1d1d;
+    position: absolute;
+    animation: leftcol  900ms steps(5);
+   
+    left: 20% ;
+    width: 150px;
+    text-align: end;
+  }
+  .c2 {
+    background-color: #1d1d1d;
+    position: absolute;
+    left: 64%;
+    width: 150px;
+    animation: rightcol  900ms steps(5);
+  }
+  @keyframes leftcol {
+    from {
+      left: 34.5%;
+    }
+    30%{left: 34.5%;}
+  
+  }
+  @keyframes rightcol {
+    from {
+      left: 50%;
+    }
+    30%{left:50%;}
+  }
+  
