@@ -87,6 +87,12 @@ header {
   margin: 10px;
   border-radius: 10px;
 }
+#imgSec {
+  display: none;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border-radius: 10px;}
 
 /* Part 02 - Projects*/
 
