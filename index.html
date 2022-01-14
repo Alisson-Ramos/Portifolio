@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/fc33e921c2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">  
     <link rel = "shortcut icon" href="./images/reduce_logo.svg">
     <title>Portifolio</title>
 </head>
 <body>
-    <img id="imgPrimary" src="./images/img.jpg">
     
+    <img id="imgPrimary" src="./images/img.jpg">
+    <div id="bkg-menu" class="hide">
+        <ul id="menu">
+            <a href="#sec02" id="liProjects"><li>Projects</li></a>
+            <a href="#sec03"><li id="liSkills">Skills</li></a>
+            <button id="btnResume">Resume</button>
+        </ul>
+    </div>
     <div id="bkgHeader"></div>
     <header>
         
         <a href="index.html"><img width="200px" height="28px" src="./images/logo.svg" class="iHeader"></a>
         <i class="fas fa-bars iHeader"></i>
+        <i class="fas fa-times iHeader hide"></i>
     </header>
     <section id="sec01">
         
@@ -65,7 +73,7 @@
     </section>
     <div class="title t02">
         <i class="far fa-gem"></i>
-        <h2>Projects</h2>
+        <h2>Skills</h2>
     </div>
     <section id="sec03">
         
@@ -89,5 +97,6 @@
             <img width="50px" src="./images/reduce_logo.svg">
         </div>
     </footer>
+    <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
