@@ -57,6 +57,6 @@
 
 ---
 
-<h4 style="text-align: center;">🔨 Projeto Portifolio 🚀 em Desenvolvimento 🔨</h4>
+<h4 align="center">🔨 Projeto Portifolio 🚀 em Desenvolvimento 🔨</h4>
 
 ---
