@@ -60,9 +60,17 @@ button:hover {
   color: #fff;
 }
 
-a{text-decoration: none;}
+a {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
 
 /* Header */
+
+
 header {
   height: 60px;
   width: 100%;
@@ -82,6 +90,8 @@ header {
 .fa-bars,
 .fa-times {
   font-size: 30px;
+  text-align: center;
+  width: 30px;
 }
 
 .iHeader {
@@ -146,6 +156,7 @@ header {
   background-color: #25242d;
   border-radius: 10px;
   margin: 15px;
+  box-shadow: #25242d ;
 }
 #pIcons {
   padding: 25px;
@@ -218,11 +229,7 @@ footer {
   top: 60px;
 }
 
-.hide {
-  display: none;
-}
-
 #menu {
   text-align: center;
+  padding: 0px;
 }
-
