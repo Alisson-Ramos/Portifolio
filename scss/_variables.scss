@@ -1,8 +1,7 @@
 $primaryColor: #8a39db;
 $secondaryColor: #25242d;
 $neutralColor: #1d1d1d;
-
-
+$border-radius: 10px;
 @mixin displayFlex($justify-content, $align-items, $align-content, $flex-wrap ) {
     display: flex;
     justify-content: $justify-content;

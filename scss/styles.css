@@ -178,6 +178,13 @@ header {
           box-shadow: #25242d;
 }
 
+.projects:hover {
+  border: solid 1px;
+  -o-border-image: linear-gradient(-210deg, #8a39db, rgba(0, 0, 0, 0) 80%) 1.2;
+     border-image: linear-gradient(-210deg, #8a39db, rgba(0, 0, 0, 0) 80%) 1.2;
+  margin: 10px;
+}
+
 #pIcons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -197,13 +204,6 @@ header {
 
 #txtProject {
   margin: 0px 0px 0px 25px;
-}
-
-.projects:hover {
-  border: solid 1px;
-  -o-border-image: linear-gradient(-210deg, #8a39db, rgba(0, 0, 0, 0) 80%) 1.2;
-     border-image: linear-gradient(-210deg, #8a39db, rgba(0, 0, 0, 0) 80%) 1.2;
-  margin: 10px;
 }
 
 /* Part 03 - Skills */

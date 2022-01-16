@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800;900&display=swap");
 
-@import 'variables';
+@import "variables";
 
 /* General */
 
@@ -52,14 +52,14 @@ button {
   border-radius: 50px;
   border: solid 2px $primaryColor;
   color: $primaryColor;
-}
-button:hover {
-  background: linear-gradient(
-    94.5deg,
-    $primaryColor -44.44%,
-    rgba(146, 81, 211, 0.29) 124.3%
-  );
-  color: #fff;
+  &:hover {
+    background: linear-gradient(
+      94.5deg,
+      $primaryColor -44.44%,
+      rgba(146, 81, 211, 0.29) 124.3%
+    );
+    color: #fff;
+  }
 }
 
 a {
@@ -72,9 +72,8 @@ a {
 
 /* Header */
 
-
 header {
-    @include displayFlex(space-between, center, none, none);
+  @include displayFlex(space-between, center, none, none);
   height: 60px;
   width: 100%;
   position: fixed;
@@ -122,14 +121,14 @@ header {
   left: 55%;
   top: 100px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: $border-radius;
 }
 #imgSec {
   display: none;
   width: 400px;
   height: 400px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: $border-radius;
 }
 
 /* Part 02 - Projects*/
@@ -139,7 +138,7 @@ header {
   padding: 300px 0px 0px 0px;
 }
 #sec02 {
-   @include displayFlex(space-between, none, none, wrap);
+  @include displayFlex(space-between, none, none, wrap);
   padding: 70px 0px 0px 0px;
 }
 .fa-font-awesome-flag,
@@ -152,9 +151,15 @@ header {
   width: 450px;
   height: 300px;
   background-color: $secondaryColor;
-  border-radius: 10px;
+  border-radius: $border-radius;
   margin: 15px;
-  box-shadow: $secondaryColor ;
+  box-shadow: $secondaryColor;
+  &:hover {
+    border: solid 1px;
+    border-image: linear-gradient(-210deg, $primaryColor, rgba(0, 0, 0, 0) 80%)
+      1.2;
+    margin: 10px;
+  }
 }
 #pIcons {
   @include displayFlex(space-between, none, none, none);
@@ -164,34 +169,28 @@ header {
   margin: 0px 0px 0px 25px;
 }
 
-.projects:hover {
-  border: solid 1px;
-  border-image: linear-gradient(-210deg, $primaryColor, rgba(0, 0, 0, 0) 80%) 1.2;
-  margin: 10px;
-}
-
 /* Part 03 - Skills */
 
 #sec03 {
-  @include displayFlex(space-between, none, none, wrap );
+  @include displayFlex(space-between, none, none, wrap);
   padding: 70px 0px 0px 0px;
 }
 .t02 {
   padding: 150px 0px 0px 0px;
 }
 .skillBlock {
-  @include displayFlex(center, none, center, none ); 
+  @include displayFlex(center, none, center, none);
   width: 200px;
   height: 150px;
   background-color: $secondaryColor;
-  border-radius: 10px;
+  border-radius: $border-radius;
   margin: 10px 10px 25px 10px;
-}
-
-.skillBlock:hover {
-  border: solid 1px;
-  border-image: linear-gradient(-210deg, $primaryColor, rgba(0, 0, 0, 0) 80%) 1.2;
-  margin: 10px 10px 20px 10px;
+  &:hover {
+    border: solid 1px;
+    border-image: linear-gradient(-210deg, $primaryColor, rgba(0, 0, 0, 0) 80%)
+      1.2;
+    margin: 10px 10px 20px 10px;
+  }
 }
 
 /* Footer */
