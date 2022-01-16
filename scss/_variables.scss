@@ -1,0 +1,13 @@
+$primaryColor: #8a39db;
+$secondaryColor: #25242d;
+$neutralColor: #1d1d1d;
+
+
+@mixin displayFlex($justify-content, $align-items, $align-content, $flex-wrap ) {
+    display: flex;
+    justify-content: $justify-content;
+    align-content: $align-content;
+    align-items: $align-items;
+    flex-wrap: $flex-wrap;
+
+}
