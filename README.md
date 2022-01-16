@@ -52,7 +52,7 @@
 
 <br>
 
-<img src="./readme_imgs/ezgif.com-gif-maker.gif" align="center">
+<P align="center"><img src="./readme_imgs/ezgif.com-gif-maker.gif"></P>
 
 
 ---
